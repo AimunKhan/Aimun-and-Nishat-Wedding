@@ -7,7 +7,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #761512 !default;
+$brand-primary: #B82424 !default;
 $brand-secondary: #FFEA7A !default; 
 
 $brand-white: #fff;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
-	height: 57vw;
+	height: 56.25vw;
 	.overlay {
 		z-index:0;
 		position: absolute;
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	.display-t,
 	.display-tc {
-		height: 57vw;
+		height: 56.25vw;
 		display: table;
 		width: 100%;
 		@media screen and (max-width: $screen-sm) {
