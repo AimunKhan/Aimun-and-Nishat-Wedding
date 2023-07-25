@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover {
 	height: 900px;
-	background-size: cover;
+	background-size: contain;
 	// background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	.fh5co-heading{
 		h2{
-			color: $brand-white;
+			color: $brand-secondary;
 		}
 		span{
 			color: rgba($brand-white,.5);
@@ -472,8 +472,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 
 	.event-wrap{
-		border: 2px solid rgba($brand-white,.5);
-		background:rgba($brand-white,.1);
+		border: 2px solid rgba($brand-secondary,.5);
+		background:rgba($brand-secondary,.1);
 		padding: 30px;
 		width: 100%;
 		float: left;
@@ -483,8 +483,8 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		h3{
 			font-size: 20px;
-			color: $brand-white;
-			border-bottom: 1px solid rgba($brand-white,.5);
+			color: $brand-secondary;
+			border-bottom: 1px solid rgba($brand-secondary,.5);
 			display: block;
 			padding-bottom: 20px;
 			text-transform: uppercase;
@@ -492,10 +492,10 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		p,span{
 			display: block;
-			color: rgba($brand-white,.8);
+			color: rgba($brand-secondary,.8);
 		}
 		i{
-			color: rgba($brand-white,1);
+			color: rgba($brand-secondary,1);
 			font-size: 20px;
 		}
 		.event-col{
