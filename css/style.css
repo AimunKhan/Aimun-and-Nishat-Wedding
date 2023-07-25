@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #B82A28;
+  color: #761512;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #B82A28;
+  color: #761512;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #B82A28;
+  background: #761512;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #B82A28;
+  background: #761512;
 }
 
 ::selection {
   color: #fff;
-  background: #B82A28;
+  background: #761512;
 }
 
 .fh5co-nav {
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #B82A28;
+  color: #761512;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -296,11 +296,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  height: 57vw;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 57vw;
   display: table;
   width: 100%;
 }
@@ -763,7 +763,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #B82A28;
+  color: #761512;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -782,7 +782,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #B82A28;
+  color: #761512;
   position: absolute;
   left: 0;
   top: 0.05em;
@@ -874,7 +874,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #FFEA7A !important;
-  color: #B82A28;
+  color: #761512;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -937,7 +937,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(184, 42, 40, 0.8);
+  background: rgba(118, 21, 18, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1038,7 +1038,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #B82A28;
+  color: #761512;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1061,7 +1061,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Great Vibes", Arial, serif;
-  color: #B82A28;
+  color: #761512;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1154,7 +1154,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #B82A28;
+  color: #761512;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1176,7 +1176,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #B82A28;
+  color: #761512;
   font-family: "Great Vibes", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1211,7 +1211,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #B82A28;
+  color: #761512;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1303,7 +1303,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #B82A28;
+  color: #761512;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1367,7 +1367,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #B82A28;
+  background: #761512;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1411,7 +1411,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #B82A28;
+  border: 2px solid #761512;
 }
 
 #fh5co-offcanvas {
@@ -1664,21 +1664,21 @@ form label {
 }
 
 .btn-primary {
-  background: #B82A28;
+  background: #761512;
   color: #fff;
-  border: 2px solid #B82A28;
+  border: 2px solid #761512;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #cd2f2d !important;
-  border-color: #cd2f2d !important;
+  background: #8c1915 !important;
+  border-color: #8c1915 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #B82A28;
-  border: 2px solid #B82A28;
+  color: #761512;
+  border: 2px solid #761512;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #B82A28;
+  background: #761512;
   color: #fff;
 }
 
@@ -1808,7 +1808,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #B82A28;
+  border-color: #761512;
 }
 
 .row-pb-md {
