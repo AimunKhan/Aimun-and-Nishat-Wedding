@@ -1156,7 +1156,7 @@ form {
 
 
 .fh5co-heading {
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 	&.fh5co-heading-sm {
 		margin-bottom: 2em;
 	}
@@ -1807,4 +1807,11 @@ form {
 	.js & {
 		opacity: 0;
 	}
+}
+
+.pin {
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	filter: invert(100%);
 }
