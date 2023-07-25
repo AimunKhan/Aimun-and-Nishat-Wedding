@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #B82424;
   font-family: "Arbutus Slab", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -994,7 +994,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 7em 0 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {

@@ -151,7 +151,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-	color: $brand-black;
+	color: $brand-primary;
 	font-family: $font-primary;
 	font-weight: 400;
 	margin: 0 0 20px 0;
@@ -1010,7 +1010,7 @@ form {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-	padding: 7em 0;
+	padding: 7em 0 2em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
