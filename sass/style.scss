@@ -389,7 +389,11 @@ h1, h2, h3, h4, h5, h6, figure {
 	position: relative;
 	width: 100%;
 	height: 56.25vw;
-	.overlay {
+	background-image: url(../images/background2.png);
+	@media screen and (max-width: $screen-sm) {
+		background-image: url(../images/background4.png);
+	}
+.overlay {
 		z-index:0;
 		position: absolute;
 		bottom: 0;
@@ -403,7 +407,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		z-index: 10;
 	}
 	@media screen and (max-width: $screen-sm) {
-		height: 600px;
+		height: 415px;
 	}
 	.display-t,
 	.display-tc {

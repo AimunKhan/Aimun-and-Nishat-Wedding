@@ -301,6 +301,12 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
   height: 56.25vw;
+  background-image: url(../images/background2.png);
+}
+@media screen and (max-width: 768px) {
+  .fh5co-cover {
+    background-image: url(../images/background4.png);
+  }
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -317,7 +323,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 415px;
   }
 }
 .fh5co-cover .display-t,
