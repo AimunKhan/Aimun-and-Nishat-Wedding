@@ -236,6 +236,19 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   position: relative;
+  background-image: url(../images/background1.png);
+}
+@media screen and (max-width: 768px) {
+  .fh5co-bg {
+    background-image: url(../images/background5.png);
+  }
+}
+
+.fh5co-plain {
+  background-position: center center;
+  width: 100%;
+  float: left;
+  position: relative;
 }
 
 .fh5co-video {
